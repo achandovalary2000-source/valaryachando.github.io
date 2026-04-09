@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+    h1 { color: #d63384; text-align: center; }
+    nav a { margin: 0 15px; color: #1a73e8; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+    input, textarea { margin-bottom: 15px; padding: 10px; font-size: 1em; }
+    button { padding: 10px; background-color: #d63384; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #a82c69; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p style="text-align:center; margin-top:20px;">Or email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+</body>
+</html>
